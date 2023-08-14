@@ -1,0 +1,64 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "F_Ability_EvasiveManeuvers_Galaxy_Self"
+		mediumEffectName "F_Ability_EvasiveManeuvers_Galaxy_Self"
+		largeEffectName "F_Ability_EvasiveManeuvers_Galaxy_Self"
+		soundID "EFFECT_POWERSURGE"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 0.160000
+		Level:1 0.160000
+		Level:2 0.160000
+		Level:3 0.160000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 0.260000
+		Level:1 0.260000
+		Level:2 0.260000
+		Level:3 0.260000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 0.260000
+		Level:1 0.260000
+		Level:2 0.260000
+		Level:3 0.260000
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.040000
+		Level:1 -0.040000
+		Level:2 -0.040000
+		Level:3 -0.040000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 40.000000
+		Level:2 40.000000
+		Level:3 40.000000
+finishCondition
+	finishConditionType "OwnerChanged"

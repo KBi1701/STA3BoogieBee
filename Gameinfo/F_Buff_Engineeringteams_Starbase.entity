@@ -1,0 +1,50 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "F_Ability_Engineering_Teams"
+		mediumEffectName "F_Ability_Engineering_Teams"
+		largeEffectName "F_Ability_Engineering_Teams"
+		soundID "EFFECT_REPAIR_TECH"
+numPeriodicActions 0
+numOverTimeActions 2
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 15.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 15.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
+finishCondition
+	finishConditionType "OwnerChanged"

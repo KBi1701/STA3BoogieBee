@@ -1,0 +1,62 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "K_STARBASEUPGRADEHANGAR_NAME"
+	descStringID "K_STARBASEUPGRADEHANGAR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_hangarbaysstation"
+	smallHudIcon "K_icon_hangarbaysstation"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 175.000000
+	upgradeTime 180.000000
+	nameStringID "K_STARBASEUPGRADEHANGAR_NAME"
+	descStringID "K_STARBASEUPGRADEHANGAR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_hangarbaysstation"
+	smallHudIcon "K_icon_hangarbaysstation"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxNumSquads"
+		value 6.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 2000.000000
+		metal 325.000000
+		crystal 250.000000
+	upgradeTime 180.000000
+	nameStringID "K_STARBASEUPGRADEHANGAR_NAME"
+	descStringID "K_STARBASEUPGRADEHANGAR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_hangarbaysstation"
+	smallHudIcon "K_icon_hangarbaysstation"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxNumSquads"
+		value 10.000000
+	upgradeBoolPropertyCount 0
+xpModifier 50.000000

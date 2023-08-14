@@ -1,0 +1,216 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "Icon_G_Varanus"
+picture "picture_newt_mostlycomeatnight"
+NameStringID "G_VARANUS_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASELIGHT_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
+basePrice
+	credits 420.000000
+	metal 70.000000
+	crystal 0.000000
+slotCount 12.000000
+BuildTime 34.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 100.000000
+MaxHullPoints 3200.000000
+MaxShieldPoints 3200.000000
+HullPointRestoreRate 1.500000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 5.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Pirate"
+hudIcon "Bb_Neutral_Varanus"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.500000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.600000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_TNG_GreenPhaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "P_Beam"
+		hitEffectName "Kli_Weap_TNG_GreenPhaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound "K_PHASER_LOOP"
+		beamGlowTextureName "Kli_TNG_PhaserBeam_Glow"
+		beamCoreTextureName "Kli_TNG_GreenPhaserBeam_Core"
+		beamWidth 80.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 430.500000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5000.000000
+	PreBuffCooldownTime 24.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 2600.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_TMP_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "P_Torp"
+		hitEffectName "Weapon_Kli_RedTorp_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Fed_Weap_Photon_TMP"
+		missileStartTurningDistance 50.000000
+		missileSlowTurnRate 8.000000
+		missileMaxSlowTurnTime 0.200000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "G_Cruiser_Shield"
+renderShield TRUE
+maxAccelerationLinear 120.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 120.000000
+maxAccelerationAngular 5.549999
+maxDecelerationAngular 5.549999
+maxSpeedLinear 220.000000
+maxRollRate 15.000000
+maxRollAngle 39.999992
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameBetweenStars "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameDestabilized "Generic_Warp_Enter_Empty"
+	chargeUpEffectSoundID "KlingonEnterWarp"
+	travelEffectName "Green_Warp_Enter"
+	travelEffectNameBetweenStars "Green_Warp_Enter"
+	travelEffectNameDestabilized "Green_Warp_Enter"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Green_Warp_Exit"
+	exitEffectSoundID "KlingonExitWarp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "GornAttack1"
+SoundID "GornAttack2"
+SoundID "GornAttack3"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "GornMove1"
+SoundID "GornMove2"
+SoundID "GornMove3"
+NumSoundsFor:ONSELECTED 3
+SoundID "GornSelect1"
+SoundID "GornSelect2"
+SoundID "GornSelect3"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "G_Cruiser"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseLight"
+ExplosionName "Explosion_Frigate_Kli_Medium"
+EngineSoundID "Engine_Klingon"
+ability:0 "P_Ability_TorpedoVolly"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 95.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

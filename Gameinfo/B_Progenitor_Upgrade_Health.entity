@@ -1,0 +1,117 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "B_PROJENITOR_UPGRADEARMOR_NAME"
+	descStringID "B_PROJENITOR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "B_icon_repairability"
+	smallHudIcon "B_icon_repairability"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "B_PROJENITOR_UPGRADEARMOR_NAME"
+	descStringID "B_PROJENITOR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "B_icon_repairability"
+	smallHudIcon "B_icon_repairability"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 1000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 0.620000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 0.900000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 3.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "B_PROJENITOR_UPGRADEARMOR_NAME"
+	descStringID "B_PROJENITOR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "B_icon_repairability"
+	smallHudIcon "B_icon_repairability"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 2000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 1.240000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 1.800000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 5.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "B_PROJENITOR_UPGRADEARMOR_NAME"
+	descStringID "B_PROJENITOR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "B_icon_repairability"
+	smallHudIcon "B_icon_repairability"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 3000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 1.860000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 2.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 7.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "B_PROJENITOR_UPGRADEARMOR_NAME"
+	descStringID "B_PROJENITOR_UPGRADEARMOR_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "B_icon_repairability"
+	smallHudIcon "B_icon_repairability"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 4000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 2.480000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 3.600000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 9.000000
+	upgradeBoolPropertyCount 0

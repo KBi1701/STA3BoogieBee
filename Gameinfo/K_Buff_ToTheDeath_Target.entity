@@ -1,0 +1,82 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "K_Ability_ToTheDeath_Target"
+		mediumEffectName "K_Ability_ToTheDeath_Target"
+		largeEffectName "K_Ability_ToTheDeath_Target"
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "K_Buff_ToTheDeath_Damage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 6000.000000
+		Level:1 6000.000000
+		Level:2 6000.000000
+		Level:3 6000.000000
+	maxTargetCount
+		Level:0 6.000000
+		Level:1 8.000000
+		Level:2 10.000000
+		Level:3 12.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.050000
+		Level:1 0.070000
+		Level:2 0.100000
+		Level:3 0.150000
+entityModifier
+	buffEntityModifierType "DamageAsDamageTargetFromForward"
+	value
+		Level:0 -0.060000
+		Level:1 -0.080000
+		Level:2 -0.100000
+		Level:3 -0.120000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 45.000000
+		Level:1 60.000000
+		Level:2 70.000000
+		Level:3 80.000000
+finishCondition
+	finishConditionType "OwnerChanged"

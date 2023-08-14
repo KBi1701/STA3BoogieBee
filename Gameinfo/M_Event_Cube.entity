@@ -1,0 +1,239 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 60.000000
+basePopulationKilled 4.500000
+bombingFreqTime 10.000000
+baseRange 9000.000000
+bombTransitTime 5.000000
+bombEffectCount 10
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Borg_Weap_Torpedo_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "B_TORP"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Borg_Weap_Torpedo"
+typeCount 1
+frigateRoleType "Siege"
+statCountType "Titan"
+mainViewIcon "Icon_B_Cube"
+picture "Unit_Picture_Bor"
+NameStringID "E_CUBE_NAME"
+DescriptionStringID "E_CUBE_DESC"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 10.000000
+BuildTime 0.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 7500.000000
+MaxHullPoints 85000.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 80.000000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 40.000000
+maxMitigation 0.700000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 19
+numRandomDebrisSmall 89
+numSpecificDebris 0
+armorType "Pirate"
+hudIcon "Bb_Event_BCube"
+smallHudIcon "Icon_B_Cube_Small"
+infoCardIcon "Icon_B_Cube_Small"
+minZoomDistanceMult 3.500000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "RAILGUN"
+	DamagePerBank:FRONT 325.000000
+	DamagePerBank:BACK 325.000000
+	DamagePerBank:LEFT 325.000000
+	DamagePerBank:RIGHT 325.000000
+	Range 6000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Beam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "B_CUTTER_START"
+		hitEffectName "Weapon_Borg_Cutter_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "Borg_TNG_PhaserBeam_Glow"
+		beamCoreTextureName "Borg_TNG_PhaserBeam_Core"
+		beamWidth 140.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PULSEWAVE"
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 500.000000
+	DamagePerBank:LEFT 500.000000
+	DamagePerBank:RIGHT 500.000000
+	Range 6000.000000
+	PreBuffCooldownTime 12.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 2600.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Torpedo_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "B_TORP"
+		hitEffectName "Weapon_Borg_Torp_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Borg_Weap_Torpedo"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 19000.000000
+ShieldMeshName "B_Cube_Shield"
+renderShield FALSE
+maxAccelerationLinear 80.000000
+maxAccelerationStrafe 80.000000
+maxDecelerationLinear 80.000000
+maxAccelerationAngular 6.000000
+maxDecelerationAngular 6.000000
+maxSpeedLinear 200.000000
+maxRollRate 0.000000
+maxRollAngle 0.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Borg_Cap_Transwarp_Start"
+	chargeUpEffectNameBetweenStars "Borg_Cap_Transwarp_Start"
+	chargeUpEffectNameDestabilized "Borg_Cap_Transwarp_Start"
+	chargeUpEffectSoundID "B_Enter_Warp"
+	travelEffectName "Borg_Cap_Transwarp_travel"
+	travelEffectNameBetweenStars "Borg_Cap_Transwarp_travel"
+	travelEffectNameDestabilized "Borg_Cap_Transwarp_travel"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Borg_Cap_Transwarp_End"
+	exitEffectSoundID "B_Exit_Warp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 0
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "B_CubeFC"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Cube_Borg"
+EngineSoundID "Engine_Borg"
+ability:0 "M_Ability_HoldingBeam"
+ability:1 "M_Ability_Assimilate"
+ability:2 ""
+ability:3 "B_Ability_Speech_Frigate"
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 6.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

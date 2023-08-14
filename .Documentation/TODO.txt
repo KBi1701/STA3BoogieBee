@@ -1,0 +1,23 @@
+TODO:
+ - Find where armour modifiers
+ - Restore legacy armour modifiers to latest version of mod
+ - Evaluate changes to Borg capital ship fleet supply cost
+ - Restore legacy fleet supply cost for Borg capital ships (subject to evaluation)
+ - Hero ship cost rework
+ - Rework D'Deridex to be mid-game superheavy capitalship
+ - Give federation "integrated social research" to boost research speed & reduce research cost (see legacy Romulan research)
+ - Define upcoming TODO items
+
+
+UPCOMING:
+ - Custom firing animation to match phaser strips (Galaxy class to be the test vessel)
+ - Change federation starbase back to spacedock (not the ugly "alliance" starbase)
+ - STA3 complete rebalance
+	- One research station per planet restriction (remove tac structures, have 1 tac slot, culture stations cost 1 tac slot, repair yards cost logistics?)
+	- Remove culture supression on all vessels
+	- Rework speed on all vessels
+	- Rework hull/armour/shield strength on all vessels
+	- Rework weapon damage, rate of fire, and range on all vessels
+	- Rework weapon hardpoints
+	- Remove fighter behaviour for capital ships
+	- Rework economic cost & build time for all ships & stations based on new combat pace

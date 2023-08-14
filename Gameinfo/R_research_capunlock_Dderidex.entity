@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "Bb_Rom_Warbird"
+smallHudIcon "Bb_Rom_Warbird"
+infoCardIcon ""
+NameStringID "R_res_capunlock_Dderidex_name"
+DescriptionStringID "R_res_capunlock_Dderidex_desc"
+researchWindowLocation
+	block 0
+	pos [ 2 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1500.000000
+	metal 250.000000
+	crystal 230.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "ResearchCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.025000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

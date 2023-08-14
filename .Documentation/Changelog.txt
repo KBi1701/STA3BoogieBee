@@ -1,0 +1,8 @@
+Changes
+---13/08/2023---
+Reduced Tholian web 6 second delayed damage from 40000 to 40 from M_Ability_TholianWeb_Target
+Reduced Tholian Snare damage from 200 to 20 from M_Ability_TholianSnare_Target
+Removed Talarian warship M_Ability_TalarianTrap from M_Cruiser_TalarianWarship
+
+---14/08/2023---
+English.str edited "MF_Bajor_Idealism_Desc" value to "Boosts culture spread: Hello, we'd like to talk to you about our Lord and Saviour Benjamin Sisko"

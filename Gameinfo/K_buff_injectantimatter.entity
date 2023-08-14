@@ -1,0 +1,54 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "K_Ability_Injectantimatter"
+		mediumEffectName "K_Ability_Injectantimatter"
+		largeEffectName "K_Ability_Injectantimatter"
+		soundID "EFFECT_POWERSURGE"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 0.400000
+		Level:1 0.500000
+		Level:2 0.600000
+		Level:3 0.700000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 1.000000
+		Level:1 1.100000
+		Level:2 1.200000
+		Level:3 1.300000
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 0.080000
+		Level:1 0.060000
+		Level:2 0.040000
+		Level:3 0.020000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 30.000000
+		Level:3 35.000000

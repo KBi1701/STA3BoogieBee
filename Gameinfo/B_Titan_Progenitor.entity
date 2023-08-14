@@ -1,0 +1,271 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Titan"
+ability:0 "B_Ability_Reaper"
+ability:1 "B_Ability_ProjProbe"
+ability:2 "B_Ability_Transwarp_Gate"
+ability:3 "B_Ability_Assimilation_Field"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 90.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 5.000000
+bombEffectCount 1
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Beam"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Borg_Weap_Bomb_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "B_CUTTER_START"
+	hitEffectName "Borg_Weap_Bomb_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 1
+		sound "B_CUTTER_LOOP"
+	beamGlowTextureName "B_Cuttingbeam_Glow"
+	beamCoreTextureName "B_Cuttingbeam_Core"
+	beamWidth 350.000000
+	beamGlowColor ff2c2c2c
+	beamCoreColor ffffffff
+	beamTilingRate 3.000000
+mainViewIcon "Icon_B_Titan"
+basePrice
+	credits 12000.000000
+	metal 1200.000000
+	crystal 1200.000000
+slotCount 350.000000
+BuildTime 500.000000
+MaxHullPoints
+	StartValue 72000.000000
+	ValueIncreasePerLevel 0.000000
+MaxShieldPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 20.000000
+	ValueIncreasePerLevel 0.000000
+ShieldPointRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+ArmorPointsFromExperience
+	StartValue 28.000000
+	ValueIncreasePerLevel 0.000000
+maxMitigation
+	StartValue 0.600000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 475.000000
+	ValueIncreasePerLevel 45.000000
+AntiMatterRestoreRate
+	StartValue 2.500000
+	ValueIncreasePerLevel 0.000000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "B_TITAN_NAME"
+DescriptionStringID "B_projenitor_desc"
+picture "Unit_Picture_Bor"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "B_research_titanaccess1"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 5
+UpgradeType "B_Progenitor_Upgrade_Reaper"
+UpgradeType "B_Progenitor_Upgrade_Probes"
+UpgradeType "B_Progenitor_Upgrade_Transwarp_Hub"
+UpgradeType "B_Progenitor_Upgrade_Assimilation_Field"
+UpgradeType "B_Progenitor_Upgrade_Health"
+numRandomDebrisLarge 23
+numRandomDebrisSmall 77
+numSpecificDebris 2
+specificDebrisMeshName "DebrisAdventLarge"
+specificDebrisMeshName "DebrisPhaseCapitalShipBattleship"
+armorType "Titan"
+hudIcon "B_progenitor"
+smallHudIcon "Icon_Gen_Titan"
+infoCardIcon "Icon_Gen_Titan"
+minZoomDistanceMult 1.400000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "RAILGUN"
+	DamagePerBank:FRONT 280.000000
+	DamagePerBank:BACK 280.000000
+	DamagePerBank:LEFT 280.000000
+	DamagePerBank:RIGHT 280.000000
+	Range 6000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 2.000000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Beam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "B_CUTTER_START"
+		hitEffectName "Weapon_Borg_Cutter_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound "B_CUTTER_LOOP"
+		beamGlowTextureName "Borg_TNG_PhaserBeam_Glow"
+		beamCoreTextureName "Borg_TNG_PhaserBeam_Core"
+		beamWidth 150.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PULSEWAVE"
+	DamagePerBank:FRONT 975.500000
+	DamagePerBank:BACK 975.000000
+	DamagePerBank:LEFT 975.000000
+	DamagePerBank:RIGHT 975.000000
+	Range 6000.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 2250.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Borg_Weap_Torpedo_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "B_TORP"
+		hitEffectName "Weapon_Borg_Torp_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "B_Vger_Bolt"
+		missileStartTurningDistance 150.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 5
+TargetCountPerBank:BACK 5
+TargetCountPerBank:LEFT 5
+TargetCountPerBank:RIGHT 5
+canOnlyTargetStructures FALSE
+mass 100000.000000
+ShieldMeshName "B_Titan_Shield"
+renderShield TRUE
+maxAccelerationLinear 60.000000
+maxAccelerationStrafe 4.000000
+maxDecelerationLinear 200.000000
+maxAccelerationAngular 3.900000
+maxDecelerationAngular 13.999994
+maxSpeedLinear 400.000000
+maxRollRate 0.000000
+maxRollAngle 0.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Borg_Cap_Transwarp_Start"
+	chargeUpEffectNameBetweenStars "Borg_Cap_Transwarp_Start"
+	chargeUpEffectNameDestabilized "Borg_Cap_Transwarp_Start"
+	chargeUpEffectSoundID "B_Enter_Warp"
+	travelEffectName "Borg_Cap_Transwarp_travel"
+	travelEffectNameBetweenStars "Borg_Cap_Transwarp_travel"
+	travelEffectNameDestabilized "Borg_Cap_Transwarp_travel"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Borg_Cap_Transwarp_End"
+	exitEffectSoundID "B_BGer_Exit_Warp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "B_Titan_Attack1"
+NumSoundsFor:ONCREATION 1
+SoundID "B_VGER_EFFECT"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "B_Titan_Move1"
+NumSoundsFor:ONSELECTED 1
+SoundID "B_Titan_Select1"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "B_Titan_Warp1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "B_Titan"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Cube_Borg"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.010000
+EngineSoundID "Engine_Borg"
+formationRank 3
+minShadow 0.000000
+maxShadow 1.000000

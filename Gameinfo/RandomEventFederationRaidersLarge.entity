@@ -1,0 +1,61 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 300.000000
+		maxFleetPoints 300.000000
+		requiredShipCount 7
+		requiredShip
+			type "M_Frigate_BajoranBattleship"
+			minCount 2
+			maxCount 5
+		requiredShip
+			type "M_Frigate_BajorType1"
+			minCount 2
+			maxCount 4
+		requiredShip
+			type "F_Frigate_Oberth"
+			minCount 3
+			maxCount 7
+		requiredShip
+			type "M_Corvette_ImpulseShip"
+			minCount 4
+			maxCount 8
+		requiredShip
+			type "F_Cruiser_Hutzel"
+			minCount 1
+			maxCount 1
+		requiredShip
+			type "M_Corvette_Raider"
+			minCount 6
+			maxCount 10
+		requiredShip
+			type "M_Cruiser_Yeager"
+			minCount 3
+			maxCount 5
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

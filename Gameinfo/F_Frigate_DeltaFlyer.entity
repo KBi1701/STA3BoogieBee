@@ -1,0 +1,216 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
+mainViewIcon "Icon_F_DeltaFlyer"
+picture "Unit_Picture_Fed"
+NameStringID "F_DELTAFLYER_NAME"
+DescriptionStringID "F_frig_centaur_desc"
+counterDescriptionStringID "F_ClassFlakFrigate_RangeShort"
+basePrice
+	credits 400.000000
+	metal 45.000000
+	crystal 25.000000
+slotCount 5.000000
+BuildTime 35.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 34.000000
+MaxHullPoints 1700.000000
+MaxShieldPoints 1900.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 5.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "Bb_Fed_DeltaFlyer"
+smallHudIcon "Icon_Gen_Fighter"
+infoCardIcon "Icon_Gen_Fighter"
+minZoomDistanceMult 3.000000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 1500.000000
+	PreBuffCooldownTime 3.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.300000
+		muzzleEffectName "Fed_Weap_TNG_Phaser_Muzzle_Fighter"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhaserFast_Start"
+		hitEffectName "Fed_Weap_TNG_Phaser_Impact_Fighter"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound "FedPhaserFast_Loop"
+		beamGlowTextureName "FedTNGPhaserBeam_Glow"
+		beamCoreTextureName "FedTNGPhaserBeam_Core"
+		beamWidth 20.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 160.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 1500.000000
+	PreBuffCooldownTime 9.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 2600.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle_Small"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonLight"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Fed_Weap_Photon_Orange_Small"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 0.010000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "F_Deltaflyer_Shield"
+renderShield TRUE
+maxAccelerationLinear 125.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 125.000000
+maxAccelerationAngular 6.149999
+maxDecelerationAngular 6.149999
+maxSpeedLinear 800.000000
+maxRollRate 15.999997
+maxRollAngle 39.999992
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameBetweenStars "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameDestabilized "Generic_Warp_Enter_Empty"
+	chargeUpEffectSoundID "Fed_Warp_Generic"
+	travelEffectName "Fed_Warp_Enter"
+	travelEffectNameBetweenStars "Fed_Warp_Enter"
+	travelEffectNameDestabilized "Fed_Warp_Enter"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Fed_Warp_Exit"
+	exitEffectSoundID "FederationExitWarp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 2
+SoundID "Fed_DF_Attack1"
+SoundID "Fed_DF_Attack2"
+NumSoundsFor:ONCREATION 1
+SoundID "Fed_DF_Select1"
+NumSoundsFor:ONGENERALORDERISSUED 2
+SoundID "Fed_DF_Move1"
+SoundID "Fed_DF_Move2"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed_DF_Select1"
+SoundID "Fed_DF_Select2"
+SoundID "Fed_DF_Select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed1Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Deltaflyer"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "F_Death_DeltaFlyer"
+EngineSoundID "Engine_Fed"
+ability:0 "F_Ability_HoloFleet"
+ability:1 "F_ability_targetweaponsarray_DF"
+ability:2 "F_Ability_Point_Defense_Frigate"
+ability:3 "NEM_Ability_PassiveLowLifeT1"
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 0.500000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,54 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "SpaceMine"
+ability:0 "C_Ability_IsolyticMine_Detonate"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Module"
+hudIcon "C_icon_subspacemine"
+smallHudIcon "Icon_R_Mine"
+infoCardIcon "Icon_R_Mine"
+picture "C_Unitpicture_Card"
+mainViewIcon "Icon_R_Mine"
+minZoomDistanceMult 12.000000
+MeshName "Frigate_PhaseCombatNaniteSwarm"
+spawnActivationDelay 0.000000
+targetStartFollowRange 20000.000000
+targetMaxFollowRange 30000.000000
+nameStringID "S_SPACETORP_NAME"
+scuttleValue
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+baseScuttleTime 6.000000
+ExplosionName "Explosion_Sona_Mine"
+minShadow 0.000000
+maxShadow 0.300000
+mass 200.000000
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 125.000000
+maxDecelerationLinear 600.000000
+maxAccelerationAngular 74.999985
+maxDecelerationAngular 149.999969
+maxSpeedLinear 700.000000
+maxRollRate 2.000000
+maxRollAngle 34.999996
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 0
+NumSoundsFor:ONSTARTPHASEJUMP 0
+maxHullPoints 300.000000
+hullPointRestoreRate 0.000000
+maxShieldPoints 0.000000
+shieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+armorPoints 0.000000
+experiencePointsForDestroying 10.000000
+baseMaxAntiMatter 0.000000
+baseAntiMatterRestoreRate 0.000000

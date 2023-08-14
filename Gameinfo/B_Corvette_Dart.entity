@@ -1,0 +1,175 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon "Icon_B_Scout"
+picture "Unit_Picture_Bor"
+NameStringID "B_dart_name"
+DescriptionStringID "B_dart_desc"
+counterDescriptionStringID "B_ClassCorvette_RangeShort"
+basePrice
+	credits 450.000000
+	metal 50.000000
+	crystal 15.000000
+slotCount 6.000000
+BuildTime 20.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 80.000000
+MaxHullPoints 2600.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 8.000000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 7.000000
+maxMitigation 0.750000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "B_research_shipunlock_probe"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Light"
+hudIcon "B_detector"
+smallHudIcon "Icon_Gen_Corvette"
+infoCardIcon "Icon_Gen_Corvette"
+minZoomDistanceMult 1.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "WAVE"
+	DamagePerBank:FRONT 90.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 2.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Kli_Weap_Pulse_muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 1
+			sound "FedPhotonAkiraLower"
+		hitEffectName "Weapon_Kli_Disruptor_Hit"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		projectileTravelEffectName "Kli_Weap_Pulsephaser_medium"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "B_Detector_Shield"
+renderShield FALSE
+maxAccelerationLinear 165.000000
+maxAccelerationStrafe 5.000000
+maxDecelerationLinear 150.000000
+maxAccelerationAngular 12.949998
+maxDecelerationAngular 12.999995
+maxSpeedLinear 1100.000000
+maxRollRate 15.000000
+maxRollAngle 49.999992
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Borg_Frig_Transwarp_Start"
+	chargeUpEffectNameBetweenStars "Borg_Frig_Transwarp_Start"
+	chargeUpEffectNameDestabilized "Borg_Frig_Transwarp_Start"
+	chargeUpEffectSoundID "B_Enter_Warp"
+	travelEffectName "Borg_Frig_Transwarp_travel"
+	travelEffectNameBetweenStars "Borg_Frig_Transwarp_travel"
+	travelEffectNameDestabilized "Borg_Frig_Transwarp_travel"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Borg_Frig_Transwarp_End"
+	exitEffectSoundID "B_Exit_Warp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "borg_unit_attack8"
+SoundID "borg_unit_attack9"
+SoundID "borg_unit_attack10"
+SoundID "borg_unit_attack11"
+NumSoundsFor:ONCREATION 4
+SoundID "borg_unit_select7"
+SoundID "borg_unit_select8"
+SoundID "borg_unit_select9"
+SoundID "borg_unit_select10"
+NumSoundsFor:ONGENERALORDERISSUED 4
+SoundID "borg_unit_move1"
+SoundID "borg_unit_move2"
+SoundID "borg_unit_move3"
+SoundID "borg_unit_move4"
+NumSoundsFor:ONSELECTED 4
+SoundID "borg_unit_select7"
+SoundID "borg_unit_select8"
+SoundID "borg_unit_select9"
+SoundID "borg_unit_select10"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "borg_unit_move2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "B_Detector"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigateTechScout"
+ExplosionName "Explosion_Frigate_Borg_Medium"
+EngineSoundID "Engine_Borg"
+ability:0 "B_Ability_MicroWarp"
+ability:1 "B_Ability_CollectiveAttack"
+ability:2 ""
+ability:3 "NEM_Ability_PassiveLowLifeT1"
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

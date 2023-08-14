@@ -1,0 +1,54 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "R_STARBASEUPGRADETRANSWARP_NAME"
+	descStringID "R_STARBASEUPGRADETRANSWARP_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "R_research_abilityaccess_transwarpgate"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_hudicon_transwarpgate"
+	smallHudIcon "R_hudicon_transwarpgate"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 2750.000000
+		metal 450.000000
+		crystal 300.000000
+	upgradeTime 300.000000
+	nameStringID "R_STARBASEUPGRADETRANSWARP_NAME"
+	descStringID "R_STARBASEUPGRADETRANSWARP_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "R_research_abilityaccess_transwarpgate"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_hudicon_transwarpgate"
+	smallHudIcon "R_hudicon_transwarpgate"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 200.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 2.500000
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 60.000000

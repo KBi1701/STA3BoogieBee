@@ -1,0 +1,38 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "BOR_ResearchVictory"
+smallHudIcon "BOR_ResearchVictory"
+infoCardIcon ""
+NameStringID "Bor_ResearchVictory_Name"
+DescriptionStringID "Bor_ResearchVictory_Desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 110
+MinimumArtifactLevel -1
+BaseUpgradeTime 1200.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 18000.000000
+	metal 3500.000000
+	crystal 5500.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "ResearchVictory"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

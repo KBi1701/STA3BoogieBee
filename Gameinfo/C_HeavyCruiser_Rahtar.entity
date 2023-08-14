@@ -1,0 +1,226 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 3
+frigateRoleType "Lrm"
+frigateRoleType "Heavy"
+frigateRoleType "Carrier"
+statCountType "FrigateHeavy"
+mainViewIcon "Icon_C_Rahtar"
+picture "C_Unitpicture_Card"
+NameStringID "C_RAHTAR_NAME"
+DescriptionStringID "C_cru_KELDON_desc"
+counterDescriptionStringID "C_ClassHeavyCruiser_RangeMedium"
+basePrice
+	credits 800.000000
+	metal 100.000000
+	crystal 70.000000
+slotCount 18.000000
+BuildTime 65.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 100.000000
+MaxHullPoints 2700.000000
+MaxShieldPoints 2200.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 8.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "C_research_shipaccess_KeldonCruiser"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 1
+specificDebrisMeshName "C_Keldon_Debris"
+armorType "VeryHeavy"
+hudIcon "C_ResearchIcon_Rahtar"
+smallHudIcon "Icon_Gen_Cruiser"
+infoCardIcon "Icon_Gen_Cruiser"
+minZoomDistanceMult 1.250000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 145.000000
+	DamagePerBank:BACK 145.000000
+	DamagePerBank:LEFT 145.000000
+	DamagePerBank:RIGHT 145.000000
+	Range 6000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 2.000000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Car_Weap_TNG_Phaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "C_Phaser_Start"
+		hitEffectName "Car_Weap_TNG_Phaser_Impact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "Wpn_Imp_Pulse_Hull1"
+			sound "Wpn_Imp_Pulse_Hull2"
+			sound "Wpn_Imp_Pulse_Hull3"
+			sound "Wpn_Imp_Pulse_Hull4"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		beamEffectSounds
+			soundCount 1
+			sound "C_Phaser_Loop"
+		beamGlowTextureName "CarPhaserBeam_Glow"
+		beamCoreTextureName "CarPhaserBeam_Core"
+		beamWidth 45.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 500.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 24.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 2600.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Fed_Weap_Photon_Muzzle"
+		muzzleSoundMinRespawnTime 0.005000
+		muzzleSounds
+			soundCount 1
+			sound "C_Photon"
+		hitEffectName "Weapon_Fed_Photon_Hit"
+		hitHullEffectSounds
+			soundCount 2
+			sound "Wpn_Imp_Torp_Hull1"
+			sound "Wpn_Imp_Torp_Hull2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "Wpn_Imp_Shield1"
+			sound "Wpn_Imp_Shield2"
+			sound "Wpn_Imp_Shield3"
+		missileTravelEffectName "Card_Weap_Photon"
+		missileStartTurningDistance 50.000000
+		missileSlowTurnRate 8.000000
+		missileMaxSlowTurnTime 0.200000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "C_Rahtar_Shield"
+renderShield TRUE
+maxAccelerationLinear 95.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 95.000000
+maxAccelerationAngular 4.249999
+maxDecelerationAngular 4.249999
+maxSpeedLinear 400.000000
+maxRollRate 9.999998
+maxRollAngle 15.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameBetweenStars "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameDestabilized "Generic_Warp_Enter_Empty"
+	chargeUpEffectSoundID "CardassianEnterWarp"
+	travelEffectName "Card_Warp_Enter"
+	travelEffectNameBetweenStars "Card_Warp_Enter"
+	travelEffectNameDestabilized "Card_Warp_Enter"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Card_Warp_Exit"
+	exitEffectSoundID "CardassianExitWarp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "cardassian_destroyer1_attack1"
+SoundID "cardassian_destroyer1_attack2"
+SoundID "cardassian_destroyer1_attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select2"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "cardassian_destroyer1_move1"
+SoundID "cardassian_destroyer1_move2"
+SoundID "cardassian_destroyer1_move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select1"
+SoundID "cardassian_destroyer1_select3"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "cardassian_destroyer1_warp1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "C_Rahtar"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Card"
+EngineSoundID "Engine_Fed"
+ability:0 "C_Ability_Point_Defense_Cruiser"
+ability:1 "C_Ability_SpiralWaveLanceKeldon"
+ability:2 ""
+ability:3 ""
+ability:4 "NEM_AbilityPassiveLowLifeT2"
+MaxAntiMatter 140.000000
+AntiMatterRestoreRate 1.250000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000

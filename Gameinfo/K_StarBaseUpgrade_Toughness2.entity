@@ -1,0 +1,145 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "K_STARBASEUPGRADETOUGHNESS_NAME"
+	descStringID "K_STARBASEUPGRADETOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_structuralintegritystation"
+	smallHudIcon "K_icon_structuralintegritystation"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 12500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 5.000000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 15000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 8.000000
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.550000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 6.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 180.000000
+	nameStringID "K_STARBASEUPGRADETOUGHNESS_NAME"
+	descStringID "K_STARBASEUPGRADETOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_structuralintegritystation"
+	smallHudIcon "K_icon_structuralintegritystation"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 22500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 8.000000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 22500.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 12.000000
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.600000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 10.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 2000.000000
+		metal 350.000000
+		crystal 300.000000
+	upgradeTime 180.000000
+	nameStringID "K_STARBASEUPGRADETOUGHNESS_NAME"
+	descStringID "K_STARBASEUPGRADETOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_structuralintegritystation"
+	smallHudIcon "K_icon_structuralintegritystation"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 32500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 10.000000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 30000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 14.000000
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.650000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 14.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 3500.000000
+		metal 575.000000
+		crystal 425.000000
+	upgradeTime 300.000000
+	nameStringID "K_STARBASEUPGRADETOUGHNESS_NAME"
+	descStringID "K_STARBASEUPGRADETOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "K_icon_structuralintegritystation"
+	smallHudIcon "K_icon_structuralintegritystation"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 45000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 12.000000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 37500.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 16.000000
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 17.500000
+	upgradeBoolPropertyCount 0
+xpModifier 100.000000

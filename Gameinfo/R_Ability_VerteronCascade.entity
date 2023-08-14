@@ -1,0 +1,52 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_VerteronCascade"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "R_Ability_VertCascade"
+	mediumEffectName "R_Ability_VertCascade"
+	largeEffectName "R_Ability_VertCascade"
+	soundID "R_Ability_ResonanceField"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 140.000000
+	Level:2 130.000000
+	Level:3 120.000000
+cooldownTime
+	Level:0 75.000000
+	Level:1 65.000000
+	Level:2 55.000000
+	Level:3 45.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ABILITY_RESONANCEFIELD_NAME"
+descStringID "R_ABILITY_RESONANCEFIELD_DESC"
+hudIcon "R_icon_psionicblast"
+smallHudIcon "R_icon_psionicblast"
+infoCardIcon ""

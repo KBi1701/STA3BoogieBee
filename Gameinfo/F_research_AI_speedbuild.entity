@@ -1,0 +1,53 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WARHEADSPLINTERING"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WARHEADSPLINTERING"
+infoCardIcon ""
+NameStringID "R_res_researchincrease_name"
+DescriptionStringID "R_res_researchincrease_desc"
+researchWindowLocation
+	block 0
+	pos [ 0 , 90 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 1.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 4
+researchModifier
+	modifierType "CapitalShipMaxSlots"
+	baseValue 0.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "ExperienceConstantGainLevelCap"
+	baseValue 0.000000
+	perLevelValue 4.000000
+researchModifier
+	modifierType "ExperienceConstantGainRate"
+	baseValue 0.000000
+	perLevelValue 1.500000
+researchModifier
+	modifierType "WeaponDamageAdjustmentWhenInFriendlyGravityWell"
+	baseValue 0.000000
+	perLevelValue 0.080000
+	linkedWeaponClass "BEAM"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

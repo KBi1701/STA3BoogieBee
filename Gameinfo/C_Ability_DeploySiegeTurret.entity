@@ -1,0 +1,70 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "CreateFrigateAtTarget"
+instantActionTriggerType "AlwaysPerform"
+frigateType "C_SiegeTurret"
+numFrigates
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+impulse 350000.000000
+expiryTime
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
+spawnFrigateSoundID "G_DeployMine"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 7500.000000
+	Level:1 10000.000000
+	Level:2 12000.000000
+	Level:3 14500.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 75.000000
+	Level:1 100.000000
+	Level:2 125.000000
+	Level:3 150.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 50.000000
+	Level:2 70.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_ABILITY_DEPLOYSIEGETURRET_NAME"
+descStringID "C_ABILITY_DEPLOYSIEGETURRET_DESC"
+hudIcon "C_icon_siegeturretkentar"
+smallHudIcon "C_icon_siegeturretkentar"
+infoCardIcon ""

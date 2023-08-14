@@ -1,0 +1,47 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 90.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 0.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.250000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 50.000000

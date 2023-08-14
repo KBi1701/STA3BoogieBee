@@ -1,0 +1,354 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Planet"
+meshInfoCount 2
+meshInfo
+	typeNameStringID "TFF_PLANET_CLASSF_GEOMETALLIC"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Sparse"
+	meshName "TFF_Planet_Class_F_Geometallic"
+	cloudColor fff0d79c
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_F_GEOMETALLIC"
+	smallHudIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_F_GEOMETALLIC"
+	infoCardIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_F_GEOMETALLIC"
+	mainViewIcon "TFF_MAINVIEWICON_PLANET_CLASS_F_GEOMETALLIC"
+	undetectedMainViewIcon "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_F_GEOMETALLIC"
+	picture "PICTURE_PLANET_DESERT0"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "TFF_PLANET_CLASSE_GEOPLASTIC"
+	asteroidTemplate "Sparse"
+	dustCloudTemplate "PuffySparse"
+	meshName "TFF_Planet_Class_E_Geoplastic"
+	cloudColor ffe4edca
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_E_GEOPLASTIC"
+	smallHudIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_E_GEOPLASTIC"
+	infoCardIcon "TFF_HUDICONSMALL_INFO_PLANET_CLASS_E_GEOPLASTIC"
+	mainViewIcon "TFF_MAINVIEWICON_PLANET_CLASS_E_GEOPLASTIC"
+	undetectedMainViewIcon "TFF_MAINVIEWICON_PLANET_UNDETECTED_CLASS_E_GEOPLASTIC"
+	picture "PICTURE_PLANET_VOLCANIC0"
+	shouldPrefer FALSE
+minZoomDistanceMult 2.750000
+glowColor 7fdf7000
+ringColor ffe7c362
+cloudLayerTextureName "PlanetCloudLayer"
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 3
+	metalResourceAsteroidSetup
+		minCount 3
+		maxCount 3
+		extractionRate 0.650000
+		refineryRate 0.300000
+		maxRefineryCount 3
+	crystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.500000
+		refineryRate 0.120000
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+isAsteroid FALSE
+healthRegenRate 2.600000
+planetUpgradeDef
+	path:Population
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.010000
+			developmentTaxPenalty -2.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 30.000000
+			populationGrowthRate 0.050000
+			developmentTaxPenalty -1.500000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+			maxPopulation 80.000000
+			populationGrowthRate 0.075000
+			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 675.000000
+				metal 200.000000
+				crystal 125.000000
+			upgradeTime 75.000000
+			maxPopulation 100.000000
+			populationGrowthRate 0.100000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 4.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Civilian 16.000000
+			maxModuleConstructorCount 3
+	path:TacticalModules
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 9.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Tactical 15.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 20.000000
+			maxModuleConstructorCount 3
+	path:Home
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+		stage
+			price
+				credits 2000.000000
+				metal 200.000000
+				crystal 150.000000
+			upgradeTime 75.000000
+			isHomePlanet TRUE
+			homePlanetTaxRateBonus 4.000000
+			homePlanetMetalIncomeBonus 0.400000
+			homePlanetCrystalIncomeBonus 0.400000
+	path:ArtifactLevel
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+	path:Infrastructure
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 1500.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxHealth 3000.000000
+	path:Social
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 50.000000
+			populationGrowthRate 0.025000
+			tradeIncomeModifier 0.075000
+			shipBuildRateModifier -0.150000
+			cultureSpreadRateModifier 0.150000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+			maxPopulation 100.000000
+			populationGrowthRate 0.050000
+			tradeIncomeModifier 0.150000
+			shipBuildRateModifier -0.350000
+			cultureSpreadRateModifier 0.350000
+	path:Industry
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 10.000000
+			tradeIncomeModifier 0.200000
+			shipBuildRateModifier 0.150000
+			cultureSpreadRateModifier -0.350000
+		stage
+			price
+				credits 550.000000
+				metal 150.000000
+				crystal 100.000000
+			upgradeTime 60.000000
+			maxPopulation 25.000000
+			tradeIncomeModifier 0.500000
+			shipBuildRateModifier 0.500000
+			cultureSpreadRateModifier -0.500000
+	path:Smuggler
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+ringsChance 0.500000
+isColonizable TRUE
+planetTypeForResearch "Ice"
+skyboxScalarsCount 6
+skyboxScalars
+	diffuseScalar 1.100000
+	ambientScalar 0.100000
+skyboxScalars
+	diffuseScalar 0.650000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 0.200000
+skyboxScalars
+	diffuseScalar 0.700000
+	ambientScalar 0.800000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 0.200000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 0.200000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 10
+bonus "ClassBPlanetBonus1HighMineral"
+bonus "ClassBPlanetBonus2PreciousGasses"
+bonus "ClassBPlanetBonus3FertileGround"
+bonus "ClassBPlanetBonus4VolcanicAsh"
+bonus "ClassBPlanetBonus5HeavyVolcanicAsh"
+bonus "ClassBPlanetBonus6MagmaFlows"
+bonus "ClassBPlanetBonus7EarthquakeProne"
+bonus "ClassBPlanetBonus8FireHorta"
+bonus "ClassBPlanetBonus9IntenseHeat"
+bonus "ClassBPlanetBonus10CorrosiveFumes"
+ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetAsteroidBelt"
+	attachType "Center"
+	effectName "Explosion_Planet"
+	startTime 3.000000
+	soundID "EFFECT_STRIPPEDTOTHECORE"
+	creditsOnStrippedToTheCore 8000.000000
+	metalOnStrippedToTheCore 1000.000000
+	crystalOnStrippedToTheCore 335.000000
+	extraScuttleTimeOnStrip 180.000000
+dlcId 204880
+ShieldMeshName "Shield_PlanetSmall"
+renderShield TRUE
+moveAreaRadius 66000.000000
+hyperspaceExitRadius 63250.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 20
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

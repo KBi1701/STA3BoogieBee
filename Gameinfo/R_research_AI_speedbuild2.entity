@@ -1,0 +1,64 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WARHEADSPLINTERING"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WARHEADSPLINTERING"
+infoCardIcon ""
+NameStringID "R_res_researchincrease_name"
+DescriptionStringID "R_res_researchincrease_desc"
+researchWindowLocation
+	block 0
+	pos [ 7 , 91 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 50
+MinimumArtifactLevel -1
+BaseUpgradeTime 1.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 3.000000
+researchBoolModifiers 0
+researchFloatModifiers 7
+researchModifier
+	modifierType "CivilianLabsPerCapitalShip"
+	baseValue 0.000000
+	perLevelValue 2.000000
+researchModifier
+	modifierType "StarBaseUpgradeCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "ShipBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "ResearchCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.950000
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue -1.050000
+researchModifier
+	modifierType "CreditCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "BlackMarketBuyPriceAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.500000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

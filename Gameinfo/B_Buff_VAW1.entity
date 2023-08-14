@@ -1,0 +1,120 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "B_Buff_VAW_Hit"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithChainTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "B_Buff_VAW2"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "HasWeapons"
+		constraint "NotIsBoarded"
+	range
+		Level:0 3000.000000
+		Level:1 4000.000000
+		Level:2 5000.000000
+		Level:3 6000.000000
+	maxTargetCount
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 3.000000
+	chainDelay 1.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Center"
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "B_Ability_ViralMatrix_Muzzle_Impact"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "B_Ability_ViralMatrix_Muzzle_Impact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "B_ViralMatrix_Hit"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "B_ViralMatrix_Hit"
+		beamEffectSounds
+			soundCount 1
+			sound "B_Ability_HoldingBeam"
+		beamGlowTextureName "B_Holdingbeam_Glow"
+		beamCoreTextureName "B_Assimilationbeam_Core"
+		beamWidth 60.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 4.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 0.050000
+		Level:1 0.350000
+		Level:2 0.460000
+		Level:3 0.660000
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 -0.020000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 -2.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 11.000000
+		Level:2 12.000000
+		Level:3 15.000000
+finishCondition
+	finishConditionType "OwnerChanged"

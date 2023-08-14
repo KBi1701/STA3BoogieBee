@@ -1,0 +1,88 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_icon_stationgovernmenticon"
+	smallHudIcon "R_icon_stationgovernmenticon"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 90.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_icon_stationgovernmenticon"
+	smallHudIcon "R_icon_stationgovernmenticon"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.050000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 90.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_icon_stationgovernmenticon"
+	smallHudIcon "R_icon_stationgovernmenticon"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.100000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 90.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "R_icon_stationgovernmenticon"
+	smallHudIcon "R_icon_stationgovernmenticon"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.150000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 50.000000

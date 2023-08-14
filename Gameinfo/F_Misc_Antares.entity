@@ -1,0 +1,128 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "StarBaseConstructor"
+statCountType "FrigateStarBaseConstructor"
+mainViewIcon "Icon_F_Const"
+picture "Unit_Picture_Fed"
+NameStringID "F_C7_NAME"
+DescriptionStringID "F_C7_DESC"
+counterDescriptionStringID "F_ClassSBConst_RangeNA"
+basePrice
+	credits 2000.000000
+	metal 350.000000
+	crystal 250.000000
+slotCount 10.000000
+BuildTime 25.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 30.000000
+MaxHullPoints 1500.000000
+MaxShieldPoints 1200.000000
+HullPointRestoreRate 0.250000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "F_research_starbaseaccess"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 2
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "Bb_Fed_C7SB"
+smallHudIcon "Icon_Gen_Frigate"
+infoCardIcon "Icon_Gen_Frigate"
+minZoomDistanceMult 2.500000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 135.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 135.000000
+maxAccelerationAngular 5.649999
+maxDecelerationAngular 5.999996
+maxSpeedLinear 1000.000000
+maxRollRate 2.000000
+maxRollAngle 34.999996
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameBetweenStars "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameDestabilized "Generic_Warp_Enter_Empty"
+	chargeUpEffectSoundID "Fed_Warp_Generic"
+	travelEffectName "Fed_Antares_Warp_Travel"
+	travelEffectNameBetweenStars "Fed_Antares_Warp_Travel"
+	travelEffectNameDestabilized "Fed_Antares_Warp_Travel"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Fed_Warp_Exit"
+	exitEffectSoundID "FederationExitWarp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "Fed8Attack"
+SoundID "Fed8Attack2"
+SoundID "Fed8Attack3"
+NumSoundsFor:ONCREATION 3
+SoundID "Fed8Select"
+SoundID "Fed8Select2"
+SoundID "Fed8Select2"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "Fed8Move"
+SoundID "Fed8Move2"
+SoundID "Fed8Move3"
+NumSoundsFor:ONSELECTED 3
+SoundID "Fed8Select"
+SoundID "Fed8Select2"
+SoundID "Fed8Select2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Fed8Move"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "F_Const"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechTradeShip"
+ExplosionName "Explosion_Frigate_Fed_Medium"
+EngineSoundID "Engine_Fed"
+ability:0 "F_Ability_DeploySpacedock"
+ability:1 ""
+ability:2 ""
+ability:3 "NEM_AbilityPassiveLowLifeT2"
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

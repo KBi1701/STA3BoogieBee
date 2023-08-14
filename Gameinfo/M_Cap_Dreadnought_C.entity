@@ -1,0 +1,117 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Heavy"
+statCountType "FrigateHeavy"
+mainViewIcon "Icon_M_dreadnaughtmissile"
+picture "C_Unitpicture_Card"
+NameStringID "M_DREADMISSILE_NAME"
+DescriptionStringID "M_DREADMISSILE_DESC"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
+basePrice
+	credits 450.000000
+	metal 95.000000
+	crystal 65.000000
+slotCount 30.000000
+BuildTime 55.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 150.000000
+MaxHullPoints 35000.000000
+MaxShieldPoints 3000.000000
+HullPointRestoreRate 12.500000
+ShieldPointRestoreRate 3.200000
+BaseArmorPoints 25.000000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 5
+numRandomDebrisSmall 16
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "NEM_Card_Dreadnought"
+smallHudIcon "Icon_M_dreadnaughtmissile"
+infoCardIcon "Icon_M_dreadnaughtmissile"
+minZoomDistanceMult 1.250000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1500.000000
+ShieldMeshName "G_Dreadnaught_Shield"
+renderShield FALSE
+maxAccelerationLinear 25.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 25.000000
+maxAccelerationAngular 4.249999
+maxDecelerationAngular 4.249999
+maxSpeedLinear 140.000000
+maxRollRate 15.000000
+maxRollAngle 15.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameBetweenStars "Generic_Warp_Enter_Empty"
+	chargeUpEffectNameDestabilized "Generic_Warp_Enter_Empty"
+	chargeUpEffectSoundID "CardassianEnterWarp"
+	travelEffectName "Card_Warp_Enter"
+	travelEffectNameBetweenStars "Card_Warp_Enter"
+	travelEffectNameDestabilized "Card_Warp_Enter"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Card_Warp_Exit"
+	exitEffectSoundID "CardassianExitWarp"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "CarDreadAttack"
+NumSoundsFor:ONCREATION 1
+SoundID "CarDreadBuild"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "CarDreadMove"
+NumSoundsFor:ONSELECTED 1
+SoundID "CarDreadSelect"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CarDreadWarp"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "C_DNM"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Explosion_Capital_Card"
+EngineSoundID "Engine_Fed"
+ability:0 "M_Ability_ThoronShock"
+ability:1 "M_Ability_DNM"
+ability:2 "M_Ability_Planet_Detonate"
+ability:3 ""
+ability:4 "G_Ability_UnCap"
+MaxAntiMatter 400.000000
+AntiMatterRestoreRate 3.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000

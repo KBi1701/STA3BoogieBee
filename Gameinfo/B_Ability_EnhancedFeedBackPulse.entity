@@ -1,0 +1,47 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "B_Buff_EnhancedFeedbackPulse_Self"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "B_Feedback_Pulse"
+	mediumEffectName "B_Feedback_Pulse"
+	largeEffectName "B_Feedback_Pulse"
+	soundID "B_FeedbackPulse"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "B_Ability_EnhancedFeedbackPulse_name"
+descStringID "B_Ability_EnhancedFeedbackPulse_desc"
+hudIcon "B_icon_feedbackpulseability"
+smallHudIcon "B_icon_feedbackpulseability"
+infoCardIcon ""

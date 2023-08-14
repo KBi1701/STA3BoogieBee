@@ -1,0 +1,134 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 5
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1500.000000
+		metal 250.000000
+		crystal 200.000000
+	upgradeTime 90.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 0.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.250000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 2000.000000
+		metal 325.000000
+		crystal 250.000000
+	upgradeTime 180.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 0.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.250000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 3000.000000
+		metal 500.000000
+		crystal 375.000000
+	upgradeTime 180.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 0.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.250000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 3.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+stage
+	price
+		credits 3500.000000
+		metal 575.000000
+		crystal 425.000000
+	upgradeTime 300.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "C_icon_imperialenforcementoutpost"
+	smallHudIcon "C_icon_imperialenforcementoutpost"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 0.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.250000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 4.000000
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 50.000000

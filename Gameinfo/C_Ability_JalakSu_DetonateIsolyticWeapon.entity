@@ -1,0 +1,61 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "CreateFrigateAtArbitraryTarget"
+instantActionTriggerType "AlwaysPerform"
+frigateType "C_Isolytic_Weapon"
+numFrigates
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+expiryTime
+	Level:0 45.000000
+	Level:1 45.000000
+	Level:2 45.000000
+	Level:3 45.000000
+spawnFrigateSoundID ""
+range
+	Level:0 6000.000000
+	Level:1 8000.000000
+	Level:2 10000.000000
+	Level:3 12000.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 3.000000
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 90.000000
+	Level:2 60.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "C_Ability_JalakSu_DetonateIsolyticWeapon_Name"
+descStringID "C_Ability_JalakSu_DetonateIsolyticWeapon_Desc"
+hudIcon "C_icon_isolyticburst"
+smallHudIcon "C_icon_isolyticburst"
+infoCardIcon ""

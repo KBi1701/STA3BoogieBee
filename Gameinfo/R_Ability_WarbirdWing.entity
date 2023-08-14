@@ -1,0 +1,73 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "R_Buff_WarbirdWing"
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveCapitalCrew"
+creditCost
+	Level:0 2500.000000
+	Level:1 5000.000000
+	Level:2 7500.000000
+	Level:3 7500.000000
+metalCost
+	Level:0 250.000000
+	Level:1 500.000000
+	Level:2 750.000000
+	Level:3 750.000000
+crystalCost
+	Level:0 300.000000
+	Level:1 600.000000
+	Level:2 900.000000
+	Level:3 900.000000
+requiredShipSlots
+	Level:0 40.000000
+	Level:1 80.000000
+	Level:2 120.000000
+	Level:3 120.000000
+requiredCapitalShipSlots
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 6.000000
+	Level:3 6.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 200.000000
+	Level:2 180.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "R_ABILITY_REINFORCEMENTS_NAME"
+descStringID "R_ABILITY_REINFORCEMENTS_DESC"
+hudIcon "Bb_Rom_Valdore"
+smallHudIcon "Bb_Rom_Valdore"
+infoCardIcon ""
