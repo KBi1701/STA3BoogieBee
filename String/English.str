@@ -30,7 +30,7 @@ StringInfo
 	Value "Gallitep Occupation Base"
 StringInfo
 	ID "C_res_forcedlabour3_desc"
-	Value "In honour of Gul Darhe'el our greatest administrator, our mirroring of his tactics and leadership leads to total loyalty of conquered species further aiding production efforts for the war"
+	Value "In honour of Gul Darhe'el, our greatest administrator, our mirroring of his tactics and leadership leads to total loyalty of conquered species further, aiding production efforts for the war"
 StringInfo
 	ID "C_Ability_PlanetarySupplies"
 	Value "Planetary Supplies"
@@ -75,7 +75,7 @@ StringInfo
 	Value "An upgraded swift and deadly attack craft piloted by the most zealous warriors in the Empire."
 StringInfo
 	ID "K_ELITEDAGGERSQUAD_NAME"
-	Value "Elite Dagger Squadron"	
+	Value "Dagger Fighter Squadron"	
 StringInfo
     ID "K_BOMBERELITE_NAME"
 	Value "Elite Goroth Bomber"
@@ -84,7 +84,7 @@ StringInfo
 	Value "An upgraded swift and deadly bomber craft piloted by the most zealous warriors in the Empire."
 StringInfo
     ID "K_BOMBERELITESQUAD_NAME"
-	Value "Elite Goroth Squadron"	
+	Value "Goroth Bomber Squadron"	
 StringInfo
 	ID "IDSMainMenuScreenPrivacyPolicyButton"
 	Value "Privacy Policy"

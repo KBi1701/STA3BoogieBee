@@ -1,21 +1,32 @@
 TODO:
+ - Redo descriptions to remove armour effective stats
  - Evaluate changes to Borg capital ship fleet supply cost
  - Restore legacy fleet supply cost for Borg capital ships (subject to evaluation)
  - Hero ship cost rework
- - Rework D'Deridex to be mid-game superheavy capitalship
  - Give federation "integrated social research" to boost research speed & reduce research cost (see legacy Romulan research)
  - Restore logistics capacity of class D asteroids back to 12 (currently on 8)
  - Investigate changes in logistic capacity of other systems & restore to previous
- - Nerf mines from ferengi militia
- - Nerf mines from son'a militia
  - Remove or replace Breen heavy ship boarding ability
  - Nerf or replace Breen light ship repair ability
+ - Remove assimilator rock thing
+ - Galaxy class should be more expensive than the Nebula/Phoenix class (not the other way around!)
  - Add ability for Husnock to bombard planets
  - Slower Romulan warp speed
  - Look at reducing abilities which completely disable other vessels (Cardassian Janisary tractor beams)
- - Define Dagger strike craft as fighters and Goroth as bombers
- - Sort out diplomatic process of capping neutral factions
+ - Sort out diplomatic process of capping neutral factions (embassies a bit glitchy)
+ - Resize ships to scale
  - Define upcoming TODO items
+Increased D'Deridex armour from 12 to 15
+Increased Tomalok armour from 12 to 15
+Increased Sela armour from 12 to 15
+Decreased Valdore armour to 12
+Decreased Tavara armour to 12
+
+TO TEST:
+ - Nerf mines from ferengi militia
+ - Nerf mines from son'a militia
+ - Define Dagger strike craft as fighters and Goroth as bombers
+ - Rework D'Deridex to be mid-game superheavy capitalship
 
 
 UPCOMING:

@@ -47,3 +47,14 @@ Decreased Donatra's shields from 4800 to 3500
 Increased Donatra's max acceleration & deceleration from 135 to 165 and 145 respectively
 Increased Donatra's max linear speed from 600 to 750
 Evaluation: Valdore weapons were increased from 6000 to 9000 in the final edition, this should be sufficient to offset a drop in protection
+
+---20/08/2023---
+Updated loading splash with annotation "bitch ass edition" texture file LoadingSplash.tga
+Changed M_Ability_Deploy_ClusterBombs.entity cooldown from 65 seconds to 300 seconds
+Changed M_Ability_Deploy_Mines_Sona.entity cooldown from 120 to 300
+Updated Tavara research unlock dependency to R_research_capunlock_valdore
+Updated Tavara research tier from 6 to 4
+Updated Tavara research position from 4 , 2 to 3 , 4
+Increased D'Deridex shields from 7k to 10k
+Increased Tomalok shields from 7k to 10k
+Increased Sela shields from 7k to 10k
