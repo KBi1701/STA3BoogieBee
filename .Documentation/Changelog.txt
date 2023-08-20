@@ -6,3 +6,44 @@ Removed Talarian warship M_Ability_TalarianTrap from M_Cruiser_TalarianWarship
 
 ---14/08/2023---
 English.str edited "MF_Bajor_Idealism_Desc" value to "Boosts culture spread: Hello, we'd like to talk to you about our Lord and Saviour Benjamin Sisko"
+Created quick file search tool
+Found armour modifiers are hidden in "Gameplay.constants" in Gameinfo folder
+Restored legacy armour modifiers
+(MAG) tested legacy armour modifiers
+
+---15/08/2023---
+Changed Tavara research tier to 4 in R_research_capunlock_tavara.entity
+Changed Valdore research tier to 2 in r_research_capunlock_valdore.entity
+Added Valdore as a prerequisite research for the Tavara in R_research_capunlock_tavara.entity
+Changed D'Deridex research to tier 6 in R_research_capunlock_Dderidex.entity
+Changed position to [ 5, 0 ] in R_research_capunlock_Dderidex.entity
+Changed D'Deridex research to tier 7 in R_research_capunlock_Dderidex_refit1.entity
+Changed position to [ 6, 0 ] in R_research_capunlock_Dderidex_refit1.entity
+Changed D'Deridex research to tier 8 in R_research_capunlock_Dderidex_refit2.entity
+Changed position to [ 7, 0 ] in R_research_capunlock_Dderidex_refit2.entity
+Increased D'Deridex hull points from 3000 to 5000 in R_Cap_Warbird.entity
+Increased D'Deridex shield points from 5000 to 7000 in R_Cap_Warbird.entity
+Increased D'Deridex front beam from 140 to 200 damage per bank (fore & aft) in R_Cap_Warbird.entity
+Increased D'Deridex disruptor damage from 155 to 180 (fore) in R_Cap_Warbird.entity
+Increased D'Deridex plasma torpedo damage from 500 to 600 (fore & aft) in R_Cap_Warbird.entity
+Increased D'Deridex refit 2 disruptor damage from 100 to 150 (fore only) in R_Cap_Warbird.entity
+Decreased D'Deridex acceleration linear from 100 to 50 in R_Cap_Warbird.entity
+Decreased D'Deridex deceleration linear from 100 to 50 in R_Cap_Warbird.entity
+Decreased D'Deridex max speed linear from 500 to 250 in R_Cap_Warbird.entity
+Decreased D'Deridex max roll rate from 3 to 1.5 in R_Cap_Warbird.entity
+Decreased D'Deridex max roll angle from 24.99996 to 20 in R_Cap_Warbird.entity
+Increased credit cost from 2000 to 5000 in R_Cap_Warbird.entity
+Increased metal cost from 250 to 1000 in R_Cap_Warbird.entity
+Increased dilithium cost from 300 to 1300 in R_Cap_Warbird.entity
+Changed Tomalok's weapon stats to match standard D'Deridex
+Changed Tomalok's health/shield points to match standard D'Deridex (left increased armour, regen, and mitigation as hero ship)
+Reduced Valdore shield stats from 4800 to 3500
+Increased Valdore hull stats from 2800 to 3100
+Reduced Tavara hull points from 3600 to 3200
+Reduced Tavara shield points from 6000 to 3800
+Reduced Tavara credit cost from 4000 to 3000
+Increased Donatra's hull from 2800 to 3100
+Decreased Donatra's shields from 4800 to 3500
+Increased Donatra's max acceleration & deceleration from 135 to 165 and 145 respectively
+Increased Donatra's max linear speed from 600 to 750
+Evaluation: Valdore weapons were increased from 6000 to 9000 in the final edition, this should be sufficient to offset a drop in protection

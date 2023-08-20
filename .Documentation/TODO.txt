@@ -1,11 +1,20 @@
 TODO:
- - Find where armour modifiers
- - Restore legacy armour modifiers to latest version of mod
  - Evaluate changes to Borg capital ship fleet supply cost
  - Restore legacy fleet supply cost for Borg capital ships (subject to evaluation)
  - Hero ship cost rework
  - Rework D'Deridex to be mid-game superheavy capitalship
  - Give federation "integrated social research" to boost research speed & reduce research cost (see legacy Romulan research)
+ - Restore logistics capacity of class D asteroids back to 12 (currently on 8)
+ - Investigate changes in logistic capacity of other systems & restore to previous
+ - Nerf mines from ferengi militia
+ - Nerf mines from son'a militia
+ - Remove or replace Breen heavy ship boarding ability
+ - Nerf or replace Breen light ship repair ability
+ - Add ability for Husnock to bombard planets
+ - Slower Romulan warp speed
+ - Look at reducing abilities which completely disable other vessels (Cardassian Janisary tractor beams)
+ - Define Dagger strike craft as fighters and Goroth as bombers
+ - Sort out diplomatic process of capping neutral factions
  - Define upcoming TODO items
 
 
@@ -21,3 +30,9 @@ UPCOMING:
 	- Rework weapon hardpoints
 	- Remove fighter behaviour for capital ships
 	- Rework economic cost & build time for all ships & stations based on new combat pace
+	- Rework quantity of weapons being fired (so battles don't look like a rave)
+
+
+DONE:
+ - Find where armour modifiers
+ - Restore legacy armour modifiers to latest version of mod
