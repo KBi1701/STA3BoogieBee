@@ -46,7 +46,7 @@ Increased Donatra's hull from 2800 to 3100
 Decreased Donatra's shields from 4800 to 3500
 Increased Donatra's max acceleration & deceleration from 135 to 165 and 145 respectively
 Increased Donatra's max linear speed from 600 to 750
-Evaluation: Valdore weapons were increased from 6000 to 9000 in the final edition, this should be sufficient to offset a drop in protection
+Evaluation: Valdore weapons range were increased from 6000 to 9000 in the final edition, this should be sufficient to offset a drop in protection
 
 ---20/08/2023---
 Updated loading splash with annotation "bitch ass edition" texture file 
@@ -60,3 +60,10 @@ Increased Sela shields from 7k to 10k
 [MAG]Corrected grammar mistakes
 [MAG]Changed M_Ability_Deploy_ClusterBombs.entity cooldown from 65 seconds to 300 seconds
 [MAG]Changed M_Ability_Deploy_Mines_Sona.entity cooldown from 120 to 300
+
+---31/08/2023---
+Removed Kessok cloaking ability M_Ability_StrikeFromTheShadows from M_Cruiser_KessokHeavy
+Removed Breen cruiser boarding ability M_Ability_Boarding from M_Support_BreenCruiser
+Packaged changes into LessAnnoyingNeutralMilitia
+Set mine cooldown from 300 to 600 for M_Ability_Deploy_ClusterBombs & M_Ability_Deploy_Mines_Sona
+Repackaged changes
